@@ -42,7 +42,7 @@ optional = true
 optional = true
 
 [tool.poetry.group.torch.dependencies]
-torch = { version = "1.13.1", source = "torch" }
+torch = { version = "2.0.1", source = "torch" }
 
 
 [tool.poetry.group.dev.dependencies]
