@@ -1,5 +1,5 @@
 pipeline {
-  agent h-node
+  agent {'h-node'}
   stages {
     stage('prepare') {
     steps {
