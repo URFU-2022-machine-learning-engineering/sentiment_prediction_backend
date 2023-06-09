@@ -1,5 +1,5 @@
 pipeline {
-  agent ('h-node')
+  agent { label 'home' }
   stages {
     stage('prepare') {
     steps {
