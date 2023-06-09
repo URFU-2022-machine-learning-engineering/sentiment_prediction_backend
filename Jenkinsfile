@@ -17,7 +17,7 @@ pipeline {
 
     stage('run') {
       steps {
-        sh 'docker run -d --rm --name sentiment-prediction-api -p 80:8000 api'
+        sh 'docker run -d --rm --name sentiment-prediction-api -p 80:8000 sp-api'
       }
     }
 
