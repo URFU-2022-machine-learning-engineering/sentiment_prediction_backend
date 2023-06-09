@@ -5,7 +5,7 @@ pipeline {
     steps {
       sh '''
       docker stop sentiment-prediction-api || exit 0
-      docker rmi sp-api
+      docker rmi -f sp-api
       '''
       }
     }
