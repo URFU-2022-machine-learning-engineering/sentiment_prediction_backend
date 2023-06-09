@@ -1,4 +1,5 @@
-node('h-node'){
+pipeline {
+  agent ('h-node')
   stages {
     stage('prepare') {
     steps {
@@ -42,3 +43,4 @@ node('h-node'){
     }
 
   }
+}
