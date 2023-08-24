@@ -14,10 +14,10 @@ class TestRoot:
             "git_hub_back": "https://github.com/URFU-2022-machine-learning-engineering/sentiment_prediction_backend",
             "git_hub_front": "https://github.com/urfuMagDS2022SFgroup/streamlit_frontend",
             "authors": [
-                "Vladimir Katin <katin.v.v.@gmail.com>",
-                "Anton Bessolitsyn <Anton.Bessolitsyn@hotmail.com>",
-                "Alexander Orlov <eaglophone@gmail.com>",
-                "Anna Bezhenar <asbezhenar@gmail.com>",
+                "Vladimir Katin",
+                "Anton Bessolitsyn",
+                "Alexander Orlov",
+                "Anna Bezhenar",
             ],
         }
         assert_that(response_object, has_entries(expected), f"expected {expected} but got {response_object}")
